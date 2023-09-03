@@ -36,10 +36,11 @@
 
 .todo-box .content {
   display: flex;
+  justify-content: space-between;
 }
 
 .todo-box .content p {
-  margin-top: -6px;
+  margin-top: 15px;
   margin-left: 6px;
 }
 
@@ -52,6 +53,7 @@
 }
 
 .actions-box {
+  margin-top: 15px;
   cursor: pointer;
 }
 
